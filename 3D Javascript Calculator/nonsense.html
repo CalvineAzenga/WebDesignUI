@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        answer=345**-13;
+        document.write(answer)
+        lengthofstr=answer.toString().length
+        index=answer.toString().indexOf("e")
+        df=answer.toString().substring(0,index)
+        df=parseFloat(df)
+        df=Math.round((df+Number.EPSILON)*10000000000)/10000000000
+        dftens=answer.toString().substring(index+1,lengthofstr)
+        document.write("<br />")
+        document.write("\n"+df+" x "+"10"+"<sup>"+dftens+"<sup/>")
+    </script>
+</body>
+</html>
