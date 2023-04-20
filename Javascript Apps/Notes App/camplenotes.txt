@@ -1,0 +1,21 @@
+<h3>Right Angled Triangle  Formula</h3>
+
+a<sup>2</sup>+b<sup>2</sup>=c<sup>2</sup>
+
+<hr>
+
+<h3>Quadratic Equation Formula</h3>
+
+
+x = b<sup><b>+</b></sup><sub><b>-</b></sub> sqrt((b<sup>2</sup>-4ac)/2a)
+
+<h3 style="color:purple;">Right Angled Triangle  Formula</h3>
+
+a<sup>2</sup>+b<sup>2</sup>=c<sup>2</sup>
+
+<hr>
+
+<h3 style="color:orange;">Quadratic Equation Formula</h3>
+
+
+x = b<sup><b>+</b></sup><sub><b>-</b></sub> sqrt((b<sup>2</sup>-4ac)/2a)
