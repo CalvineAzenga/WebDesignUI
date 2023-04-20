@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <title>CallyVine Tech</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+      .downl{
+        display:block;
+      }
+      button{
+        color: blue;
+        background-color: transparent;
+        padding:10px;
+        border-radius: 10%;
+        font-size: 15px;
+        font-weight: bold;
+        border:0;
+
+      }
+      button:hover{
+        background: white;
+        color:green;
+        opacity:0.5;
+        transition: 1s;
+      }
+      p{
+        margin: 20px;
+        color:beige;
+      }
+    </style>
+    
+  </head>
+  <body>
+    <div class="menu-bar">
+      <ul>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="projects.html"><i class="fas fa-clone"></i>Projects &nbsp <img width="20px" height="20px" style="background-color:rgb(8, 251, 255);display: inline;" src="././svg/angle-down.svg" alt=""></a><i class="fas fa-./svg/angle-down"></i>
+          <div class="sub-menu-1">
+            <ul>
+              <li class="hover-me"><a href="projects.html">Web Projects <img width="20px" height="20px" style="background-color:rgb(8, 251, 255);display: inline;float: right;" src="././svg/angle-right.svg" alt=""></a><i class="fas fa-./svg/angle-right"></i>
+                <div class="sub-menu-2">
+                  <ul>
+                    <li><a href="projects.html">HTML, CSS & JS</a></li>
+                    <li><a href="projects.html">PHP Projects</a></li>
+                    <li><a href="projects.html">Asp.Net</a></li>
+                    <li><a href="projects.html">Java Applet</a></li>
+                    <li><a href="projects.html">Django & Flask</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="hover-me"><a href="projects.html">Desktop <img  width="20px" height="20px" style="background-color:rgb(8, 251, 255);display: inline;float: right;" src="././svg/angle-right.svg" alt=""></a><i class="fas fa-./svg/angle-right"></i></a><i class="fas fa-./svg/angle-right"></i>
+                <div class="sub-menu-2">
+                  <ul>
+                    <li><a href="projects.html">Python Projects</a></li>
+                    <li><a href="projects.html">Java Projects</a></li>
+                    <li><a href="projects.html">C/C++ Projects</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="hover-me"><a href="projects.html">Android Projects</a>
+              <li><a href="projects.html">Graphics Design</a></li>
+
+              </ul>
+            </div>
+              </li>
+        </li>
+        <li><a href="repo.html"><i s"></i>Repository</a></li>
+        <li><a href="proposal.html"><i ></i>Proposal</a></li>
+        <li><a href="forum.html"><i ></i>Skill Show</a></li>
+        <li><a href="contact.html"><i ></i>Contact</a></li>
+        <li><a href="portfolio.html"><i></i>About Me &nbsp</a></li>
+      </ul>
+    </div>
+    <div class="repocontent">
+        <script>
+            // alert("You are about to view files in the Repository")
+          document.write("<p>Files in the repository are free to ./svg/download</p>")
+          document.write("<table>")
+          document.write("<tr>")
+            var a=0
+          for(var row=1;row<=3;row++){
+            for(var col=1;col<=7;col++){
+              document.write("<td>")
+              document.write("<p><img width='30px' height='30px' src='img/lock.png' />File @ Loc" + a+"</p>")
+              document.write("</td>")
+              document.write("<td>")
+              document.write("<button>Download</button>")
+              document.write("</td>")
+              a+=1
+              if(col%3==0){
+                document.write("</tr>")
+                document.write("<tr>")
+              }          
+            }
+          } 
+          document.write("</tr>")
+          document.write("</table>") 
+        </script>
+    </div>
+    <div class="downl" style="color:violet;background-color: black;width: 20%;text-align: center;margin-left: 40%;top: 15%;position: absolute;padding: 10px;">
+      Download Files
+    </div>
+
+    <footer  style="position:fixed">Made with <span>&hearts;</span> by CallyVine Tech &copy Copyright 2021</footer>
+
+  </body>
+</html>
